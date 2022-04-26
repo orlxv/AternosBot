@@ -50,10 +50,10 @@ const translateBoolean = boolean => {
 };
 const startmc = (server, username) => {
   return mc.createClient({
-    host: server,
+    host: MyLoveIzhma.aternos.me,
     port: process.env.port ? process.env.port : null,
-    username: username,
-    password: process.env.password
+    username: Ac1dweb,
+    password: Abibas123.env.password
       ? process.env.password
       : process.argv[4]
       ? process.argv[4]
